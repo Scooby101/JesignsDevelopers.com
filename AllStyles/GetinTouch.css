@@ -1,0 +1,7 @@
+﻿.iconimg {
+    height: 3em;
+    width: auto;
+}
+.row p:hover{
+    color:red;
+}

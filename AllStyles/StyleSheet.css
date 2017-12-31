@@ -1,0 +1,234 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+h2{
+    padding-top:20px;
+    color:white;
+}
+h3{
+    padding-top:40em;
+    color:white;
+}
+.lmg{
+   border-radius:2em 2em;
+}
+.img:hover{
+    color:red;
+    
+}
+.emailme:hover
+{
+    color:red;
+}
+
+header {
+   /* background-image: url('../Images/abstract-397751.jpg');*/
+    background-image: url('../Images/cancasimg1.png');   
+    background-size: 100% 18em;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 12em;
+    width: auto;
+}
+.ftr {
+    background-image: url('../Images/Footerbgi.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0em;
+    height: auto;
+    padding: 3em;
+}
+
+.img1 {
+    padding: 3em;
+    height: auto;
+    width: 6em;
+}
+
+.img2 {
+    padding: 3em;
+    height: auto;
+    width: 6em;
+}
+
+.img3 {
+    padding: 3em;
+    height: auto;
+    width: 6em;
+    display: none;
+}
+.img4{
+    margin-top:3em;
+}
+
+a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+nav ul {
+    background-image: url('../Images/Background.jpg');
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: max-heigt 2s;
+    -ms-transition: max-heigt 2s;
+    -moz-transition: max-heigt 2s;
+    -o-transition: max-heigt 2s;
+    transition: max-heigt 2s;
+}
+
+nav ul.web {
+    background-image: url('../Images/Background.jpg');
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: max-heigt 2s;
+    -ms-transition: max-heigt 2s;
+    -moz-transition: max-heigt 2s;
+    -o-transition: max-heigt 2s;
+    transition: max-heigt 2s;
+}
+
+    nav ul.web li {
+        display: inline-block;
+        padding: 20px;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 20px;
+        }
+
+.rbdy {
+
+    background-image: url('../Images/3d-252870.jpg');*/
+}
+.nv1 nav ul {
+    background-image: url('../Images/Background.jpg');
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: max-heigt 2s;
+    -ms-transition: max-heigt 2s;
+    -moz-transition: max-heigt 2s;
+    -o-transition: max-heigt 2s;
+    transition: max-heigt 2s;
+}
+
+.nv1 nav ul li {
+    display: inline-block;
+    padding: 20px;
+    }
+
+section {
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    padding: 40px;
+    width: 75%;
+    margin: 0 auto;
+    font-family:Calibri; 
+}
+
+nav ul li:hover {
+    color: ButtonShadow;
+}
+nav ul.web li:hover {
+    color: ButtonShadow;
+}
+
+.handle {
+    background-image: url('../Images/Background.jpg');
+    width: 100%;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    display: none;
+}
+.handle2 {
+    background-image: url('../Images/Background.jpg');
+    width: 100%;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    display: none;
+}
+.img5{
+    margin-top:-2.8em;
+    height:auto;
+    width:14em;
+    display: none
+     
+}
+@media screen and (max-width:672px){
+    .midimg{
+        width:507px;
+        height:auto;
+    }
+}
+@media screen and (max-width:520px) {
+    .midimg {
+        width: 180px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:580px ) {
+    nav ul {
+        max-height: 0px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img3 {
+        display: block;
+    }
+    .img4{
+        display:none
+    }
+    .img5{
+        display:block;
+    }
+    .showing {
+        max-height: 50em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .handle {
+        display: block;
+    }
+    .handle2{
+        display:block;
+    }
+}
+@media screen and (max-width: 654px)
+{
+    .space{
+        height: 0px;
+    }
+}

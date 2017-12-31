@@ -1,0 +1,43 @@
+@media screen and (max-width: 654px)
+{
+	.space{
+		height: 0px;
+	}
+}
+@media screen and (max-width:672px){
+    .midimg{
+        width:507px;
+        height:auto;
+    }
+}
+@media screen and (max-width:520px) {
+    .midimg {
+        width: 180px;
+        height: auto;
+    }
+}
+@media screen and (max-width:580px ) {
+    nav ul {
+        max-height: 0px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: none;
+    }
+
+    .img3 {
+        display: block;
+    }
+    .img4{
+        display:none
+    }
+    .img5{
+        display:block;
+    }
+    .showing {
+        max-height: 50em;
+    }

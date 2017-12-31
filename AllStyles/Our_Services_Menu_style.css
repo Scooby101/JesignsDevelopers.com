@@ -1,0 +1,14 @@
+    .smlbtn{
+        display: inherit;
+        background-color: transparent;
+        align-content: inherit;
+        border-style: none;
+        cursor: pointer;
+        color: white;
+        font-size: 1.2em
+    }
+
+#clock
+{
+    display: none;
+}
