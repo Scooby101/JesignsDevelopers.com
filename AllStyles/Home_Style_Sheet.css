@@ -2,19 +2,30 @@
 {
     font-family: 'Dancing Script', cursive;
     color:white;
-    font-size: 1.5em;
-    font-weight: lighter;
+    font-size: 1.8em;
+    font-weight: lighter;   
 }
-.space
-{
-    height: 55px
+
+.aboutus{
+    font-family: 'Courgette', cursive;
+    font-size: 1em;
 }
- .osr	
- {
+
+@media screen and (max-width:466px) {
+    .slogan {
+        font-size: 1.5em;
+    }
+}
+
+.space{
+    height: 12px
+}
+
+ .osr{
 	text-align: left;
     margin-left: 5em;
-    
 }
+
 button.accordion {
     background: transparent;
     color: white;
